@@ -4,7 +4,7 @@ title: AWS Security Best Practices (Türkçe)
 
 # Kimlik ve Erişim Yönetimi
 
-## 1.1 Makineler ve İnsanlar İçin Kimlik Doğrulamayı Yönetmek {#makineler-ve-insanlar-için-kimlik-doğrulamayı-yönetmek .unnumbered}
+## 1.1 Makineler ve İnsanlar İçin Kimlik Doğrulamayı Yönetmek 
 
 **İnsan Kimlikleri:** Yöneticileriniz, geliştiricileriniz,
 operatörleriniz ve kullanıcılarınız (end-users), AWS ortamlarınıza ve
@@ -20,7 +20,7 @@ makineleri içerebilir. Ek olarak, AWS dışında erişime ihtiyaç duyan
 makineleriniz olabilir ve bu makinelerin de kimliklerini
 yönetebilirsiniz.
 
-### 1.1.1 Güçlü Oturum Açma Mekanizmalarını Kullanın {#güçlü-oturum-açma-mekanizmalarını-kullanın .unnumbered}
+### 1.1.1 Güçlü Oturum Açma Mekanizmalarını Kullanın 
 
 Oturum açma esnasında (oturum açma kimlik bilgileri kullanarak kimlik
 doğrulama), özellikle oturum açma kimlik bilgileri kazara ifşa edilmişse
@@ -41,7 +41,7 @@ azaltın.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.1.2 Geçici Kimlik Bilgileri Kullanın {#geçici-kimlik-bilgileri-kullanın .unnumbered}
+### 1.1.2 Geçici Kimlik Bilgileri Kullanın 
 
 Her türlü kimlik doğrulama işlemini yaparken, kimlik bilgilerinin kazara
 ifşa edilmesi, paylaşılması veya çalınması gibi riskleri azaltmak için
@@ -72,7 +72,7 @@ tehlikeye girmesini önemli ölçüde azaltın.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.1.3 Gizli Bilgileri Güvenli Bir Şekilde Saklayın ve Kullanın {#gizli-bilgileri-güvenli-bir-şekilde-saklayın-ve-kullanın .unnumbered}
+### 1.1.3 Gizli Bilgileri Güvenli Bir Şekilde Saklayın ve Kullanın 
 
 Bir iş yükü (workload), veritabanlarına, kaynaklara ve üçüncü taraf
 hizmetlere kimliğini kanıtlayabilme yeteneğine ihtiyaç duyar. Bu, API
@@ -121,7 +121,7 @@ mekanizmayla potansiyel güvenlik açıklarını azaltın.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.1.4 Merkezi Bir Kimlik Sağlayıcıya Güvenin {#merkezi-bir-kimlik-sağlayıcıya-güvenin .unnumbered}
+### 1.1.4 Merkezi Bir Kimlik Sağlayıcıya Güvenin 
 
 İş gücü (workforce) kimlikleri (çalışanlar ve taşeronlar) için,
 kimlikleri merkezi bir noktada yönetmenize izin veren bir kimlik
@@ -149,7 +149,7 @@ edilir ve atanan uygulamalar ve izinler otomatik olarak güncellenir.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.1.5 Düzenli Olarak Kimlik Bilgilerini Denetleyin ve Yenileyin {#düzenli-olarak-kimlik-bilgilerini-denetleyin-ve-yenileyin .unnumbered}
+### 1.1.5 Düzenli Olarak Kimlik Bilgilerini Denetleyin ve Yenileyin 
 
 Kimlik bilgilerinin kaynaklarınıza erişim için ne kadar süreyle
 kullanılabileceğini sınırlayın. Uzun vadeli kimlik bilgileri birçok risk
@@ -162,7 +162,7 @@ durumları düzenli olarak denetleyin ve düzeltin.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.1.6 Kullanıcı Grupları ve Özelliklerini Kullanın {#kullanıcı-grupları-ve-özelliklerini-kullanın .unnumbered}
+### 1.1.6 Kullanıcı Grupları ve Özelliklerini Kullanın 
 
 Yönettiğiniz kullanıcı sayısı arttıkça, bunları ölçeklenebilir bir
 şekilde yönetebilmek için nasıl düzenleyebileceğinizi belirlemeniz
@@ -174,9 +174,9 @@ yerine bu grupları kullanarak erişimleri kontrol edin.
 
 Risk Düzeyi: **Düşük**
 
-## 1.2 Makineler ve İnsanlar İçin İzinleri Yönetmek {#makineler-ve-insanlar-için-izinleri-yönetmek .unnumbered}
+## 1.2 Makineler ve İnsanlar İçin İzinleri Yönetmek 
 
-### 1.2.1 Erişim Gereksinimlerini Tanımlayın {#erişim-gereksinimlerini-tanımlayın .unnumbered}
+### 1.2.1 Erişim Gereksinimlerini Tanımlayın 
 
 İş yükünüzün her bileşenine/kaynağına yöneticiler, kullanıcılar
 (end-users) veya diğer bileşenler tarafından erişilmesi gerekebilir. Her
@@ -192,7 +192,7 @@ yöntemini seçin.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.2.2 En Az Ayrıcalığa Erişim Verme {#en-az-ayrıcalığa-erişim-verme .unnumbered}
+### 1.2.2 En Az Ayrıcalığa Erişim Verme 
 
 Erişimi sadece spesifik aksiyonları gerçekleştirmek için spesifik
 kaynaklar ve spesifik koşullar altında vermelisiniz. Grup özelliklerini
@@ -221,7 +221,7 @@ küçük izin setini almalıdır.
 
 Risk Düzeyi: **Yüksek**
 
-### 1.2.3 Acil Erişim Süreci Oluşturmak {#acil-erişim-süreci-oluşturmak .unnumbered}
+### 1.2.3 Acil Erişim Süreci Oluşturmak 
 
 Acil erişim süreci oluşturmak, merkezi kimlik sağlayıcınızda beklenmeyen
 bir sorun oluştuğunda iş yüklerinize acil erişim sağlama imkânı sunar.
@@ -289,7 +289,7 @@ mekanizmayı yeniden sağlanana kadar kullanılır.
 
 > Risk Düzeyi: **Orta**
 
-### 1.2.4 Sürekli Olarak İzinleri Azaltma {#sürekli-olarak-izinleri-azaltma .unnumbered}
+### 1.2.4 Sürekli Olarak İzinleri Azaltma 
 
 **Amaç:** İzin politikaları, en az ayrıcalık ilkesine uygun olmalıdır.
 İş görevleri ve roller daha iyi tanımlandıkça, gereksiz izinleri
@@ -305,7 +305,7 @@ erişilirse etki alanını azaltır.
 
 Risk Düzeyi: **Orta**
 
-### 1.2.5 Kuruluşunuz İçin İzin Sınırları Belirleyin {#kuruluşunuz-için-izin-sınırları-belirleyin .unnumbered}
+### 1.2.5 Kuruluşunuz İçin İzin Sınırları Belirleyin 
 
 Kuruluşunuzdaki tüm kimliklerin erişimini kısıtlayan ortak denetimleri
 oluşturun. Örneğin, belirli AWS Bölgelerine erişimi sınırlayabilir veya
@@ -320,7 +320,7 @@ silmek gibi ortak kaynakları silmekten engelleyebilirsiniz.
 
 Risk Düzeyi: **Orta**
 
-### 1.2.6 Erişimi Yaşam Döngüsüne Göre Yönetme {#erişimi-yaşam-döngüsüne-göre-yönetme .unnumbered}
+### 1.2.6 Erişimi Yaşam Döngüsüne Göre Yönetme 
 
 Operatör ve uygulama yaşam döngüsü ile merkezi giriş sağlayıcınızı
 entegre etmek için erişim kontrollerini yönetin. Örneğin, bir kullanıcı
@@ -333,7 +333,7 @@ Erişim Yöneticisi (AWS RAM) kullanmanızı öneririz.
 
 Risk Düzeyi: **Düşük**
 
-### 1.2.7 Kamu ve Farklı Hesaplara Erişimi Analiz Edin {#kamu-ve-farklı-hesaplara-erişimi-analiz-edin .unnumbered}
+### 1.2.7 Kamu ve Farklı Hesaplara Erişimi Analiz Edin 
 
 **Amaç:** AWS kaynaklarınızın hangilerinin kimlerle paylaşıldığını
 bilin. Paylaşılan kaynaklarınızı sürekli olarak izleyin ve denetleyin,
@@ -348,7 +348,7 @@ yalnızca yetkilendirilmiş prensiplerle paylaşıldığını doğrulayın.
 
 > Risk Düzeyi: **Düşük**
 
-### 1.2.8 Kuruluş İçinde Kaynakları Güvenli Bir Şekilde Paylaşma {#kuruluş-içinde-kaynakları-güvenli-bir-şekilde-paylaşma .unnumbered}
+### 1.2.8 Kuruluş İçinde Kaynakları Güvenli Bir Şekilde Paylaşma 
 
 İş yüklerinin sayısı arttıkça, bu iş yüklerindeki kaynaklara erişimi
 paylaşmanız veya kaynakları birden çok hesap üzerinde birden çok kez
@@ -383,7 +383,7 @@ amaçtır.
 
 Risk Düzeyi: **Orta**
 
-### 1.2.9 Üçüncü Bir Taraf ile Kaynakları Güvenli Bir Şekilde Paylaşma {#üçüncü-bir-taraf-ile-kaynakları-güvenli-bir-şekilde-paylaşma .unnumbered}
+### 1.2.9 Üçüncü Bir Taraf ile Kaynakları Güvenli Bir Şekilde Paylaşma 
 
 Kuruluşunuz, verilerinizin bir bölümünü yönetmek için üçüncü bir tarafa
 güvenebilir. Üçüncü taraf tarafından yönetilen sistemin izin yönetimi,
