@@ -39,7 +39,7 @@ azaltın.
 
 -   Anormal giriş davranışlarını tespit etme
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.1.2 Geçici Kimlik Bilgileri Kullanın 
 
@@ -70,7 +70,7 @@ tehlikeye girmesini önemli ölçüde azaltın.
 -   Makine kimlikleri için geçici kimlik bilgileri kullanılabilirken
     uzun vadeli erişim anahtarlarının kullanılması.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.1.3 Gizli Bilgileri Güvenli Bir Şekilde Saklayın ve Kullanın 
 
@@ -119,7 +119,7 @@ mekanizmayla potansiyel güvenlik açıklarını azaltın.
 
 -   Kimlik bilgilerine erişim hassas bir şekilde kontrol edilebilir.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.1.4 Merkezi Bir Kimlik Sağlayıcıya Güvenin 
 
@@ -147,7 +147,7 @@ sistemlere iletilir ve böylece erişimleri otomatik olarak iptal edilir.
 rol değiştirdiğinde bu değişiklikler kimlik sağlayıcıya senkronize
 edilir ve atanan uygulamalar ve izinler otomatik olarak güncellenir.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.1.5 Düzenli Olarak Kimlik Bilgilerini Denetleyin ve Yenileyin 
 
@@ -160,7 +160,7 @@ yenileyerek azaltılabilir.
 olarak yenileyin. Kimlik bilgisi yenileme politikalarına uymayan
 durumları düzenli olarak denetleyin ve düzeltin.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.1.6 Kullanıcı Grupları ve Özelliklerini Kullanın 
 
@@ -172,7 +172,7 @@ Kullanıcı gruplarını ve özelliklerini yönetmek için AWS IAM Kimlik
 Merkezi\'ni (IAM Identity Center) kullanabilirsiniz. Bireysel roller
 yerine bu grupları kullanarak erişimleri kontrol edin.
 
-Risk Düzeyi: **Düşük**
+> Risk Düzeyi: **Düşük**
 
 ## 1.2 Makineler ve İnsanlar İçin İzinleri Yönetmek 
 
@@ -190,7 +190,7 @@ yöntemini seçin.
 
 -   Uzun süreli kimlik bilgilerini kullanmama.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.2.2 En Az Ayrıcalığa Erişim Verme 
 
@@ -219,7 +219,7 @@ küçük izin setini almalıdır.
 -   İzinleri inceleyerek en az ayrıcalık erişimine izin verip
     vermediğini anlama.
 
-Risk Düzeyi: **Yüksek**
+> Risk Düzeyi: **Yüksek**
 
 ### 1.2.3 Acil Erişim Süreci Oluşturmak 
 
@@ -234,7 +234,7 @@ erişim süreci, ilgili sorunları gidermek için alternatif yöntemlerle
 gibi) bulut kaynaklarına erişim sağlar. Acil erişim süreci, normal
 mekanizmayı yeniden sağlanana kadar kullanılır.
 
-> **Amaç:**
+**Amaç:**
 
 -   Acil durum olarak kabul edilebilecek arıza modlarını tanımlama:
     Normal koşulları ve yönetim için bağımlı oldukları sistemleri
@@ -303,7 +303,7 @@ erişilirse etki alanını azaltır.
 
 -   Artık gerekmeyen izin politikalarını saklama.
 
-Risk Düzeyi: **Orta**
+> Risk Düzeyi: **Orta**
 
 ### 1.2.5 Kuruluşunuz İçin İzin Sınırları Belirleyin 
 
@@ -318,7 +318,7 @@ silmek gibi ortak kaynakları silmekten engelleyebilirsiniz.
 
 -   Üretim ve üretim dışı iş yüklerini aynı hesapta çalıştırma.
 
-Risk Düzeyi: **Orta**
+> Risk Düzeyi: **Orta**
 
 ### 1.2.6 Erişimi Yaşam Döngüsüne Göre Yönetme 
 
@@ -331,8 +331,7 @@ Ayrı hesaplar kullanarak iş yüklerini yönettiğinizde, bu hesaplar
 arasında kaynakları paylaşmanız gereken durumlar olacaktır. AWS Kaynak
 Erişim Yöneticisi (AWS RAM) kullanmanızı öneririz.
 
-Risk Düzeyi: **Düşük**
-
+> Risk Düzeyi: **Düşük**
 ### 1.2.7 Kamu ve Farklı Hesaplara Erişimi Analiz Edin 
 
 **Amaç:** AWS kaynaklarınızın hangilerinin kimlerle paylaşıldığını
@@ -381,7 +380,7 @@ amaçtır.
 -   Gerekli olduğunda temel kaynakları manuel olarak oluştururken
     örtüşme oluşturma.
 
-Risk Düzeyi: **Orta**
+> Risk Düzeyi: **Orta**
 
 ### 1.2.9 Üçüncü Bir Taraf ile Kaynakları Güvenli Bir Şekilde Paylaşma 
 
@@ -403,4 +402,4 @@ politikalarını IAM rolüne ekli tutarak, üçüncü tarafa verilen erişimin
 
 -   Harici kimlikleri yeniden kullanma.
 
-Risk Düzeyi: **Orta**
+> Risk Düzeyi: **Orta**
