@@ -1,6 +1,4 @@
----
-title: AWS Security Best Practices (Türkçe)
----
+# AWS Security Best Practices (Türkçe)
 
 # Kimlik ve Erişim Yönetimi
 
